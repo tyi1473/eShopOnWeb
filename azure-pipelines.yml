@@ -11,6 +11,7 @@ pool:
   name: default
   demands:
   - agent.name -equals VMtachyon81
+  - DotNetFramework_4.8.0_x64 -equals 'C:\Windows\Microsoft.NET\Framework64\v4.0.30319''
   vmImage: 'ubuntu-latest'
 
 variables:
