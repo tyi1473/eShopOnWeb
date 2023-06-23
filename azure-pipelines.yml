@@ -10,7 +10,7 @@ pool:
   vmImage: 'windows-latest'
   name: default
   demands:
-  - agent.name -equals WIN22-1
+  - agent.name -equals VMtachyon81
 
 
 variables:
